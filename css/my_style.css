@@ -1,0 +1,420 @@
+.header_contact{
+    min-height: 40px;
+    background-image: linear-gradient(to bottom,#ebeaeb,#f0eff0);
+    display: none
+}
+.header_contact ul{
+    padding: 0px;
+    padding-top: 5px
+}
+.header_contact ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 26px;
+    color: #6d6c6c;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 10px;
+    cursor: pointer
+}
+.header_contact ul li em{
+    border-right: #bbbbbb 1px solid;
+    padding-right: 5px
+}
+.header_contact > div > div:nth-child(2) ul{
+    text-align: right
+}
+.header_contact > div > div:nth-child(2) ul li:hover{
+    text-decoration: underline
+}
+.header_nav_one{
+    height: 120px;
+}
+.header_nav_two{
+    min-height: 48px;
+    border-bottom: #bbbbbb 1px solid;
+    border-top: #bbbbbb 1px solid;
+    margin-top: 20px
+}
+.header_nav_two > div > div > div{
+    width: 250px;
+    background-color: #3c424d;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    display: inline-block
+}
+.nav_bar{
+    display: inline-block;
+}
+.nav_bar_item{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    color: #424242;
+    cursor: pointer;
+}
+.nav_bar_item:hover{
+    color: skyblue
+}
+.blog_content_item{
+    margin-top: 30px;
+}
+.blog_content_item_one > div:nth-child(1){
+    height: 500px;
+    padding: 5px
+}
+.blog_content_item_one > div:nth-child(2) > div{
+    height: 250px;
+    padding: 5px
+}
+.blog_content_item_one img{
+    width: 100%;
+    height: 100%;
+    border: #bbbbbb 1px solid
+}
+.blog_content_item_two .body_content > div > div{
+    min-height: 400px;
+}
+.blog_content_item_two .body_content > div{
+    padding-left: 10px;
+    padding-right: 10px
+}
+.blog_content_item_two .body_content > div > div{
+    width: 280px;
+}
+.blog_content_item_two .body_content > div > div:first-child{
+    background-color: #e0e0e0;
+    padding: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+.blog_content_item_two .body_content > div > div:first-child > div:first-child,
+.blog_content_item_two .body_content > div > div:nth-child(2) > div:first-child
+{
+    background-color: green;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 7px
+}
+.blog_content_item_two .body_content > div > div:first-child > div:nth-child(2){
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px
+}
+.blog_content_item_two .body_content > div > div:nth-child(2),
+.blog_content_item_two .body_content > div > div:nth-child(3),
+.blog_content_item_two .body_content > div > div:nth-child(4){
+    border: #bbbbbb 1px solid;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding-bottom: 10px
+}
+.blog_content_item_two .body_content > div > div:nth-child(2) img{
+    width: 200px;
+    height: 200px;
+    border-bottom: green 3px solid;
+    display: block;
+    margin: auto;
+    margin-top: 30px
+}
+.blog_content_item_two .body_content > div > div:nth-child(2) h5{
+    font-weight: bold;
+    color: #363636;
+    text-align: center;
+    display: block;
+    margin-top: 25px
+}
+.blog_content_item_two .body_content > div > div:nth-child(2) p{
+    text-align: center;
+    color: gray;
+    font-size: 14px;
+    padding: 5px
+}
+.blog_content_item_two .body_content > div > div:nth-child(2) button{
+    display: block;
+    width: 180px;
+    height: 48px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    border-radius: 100px
+}
+.blog_content_item_two .body_content > div > div:nth-child(2) button:hover{
+    background-color: #00ff39
+}
+.blog_content_item_two .body_content > div > div:nth-child(3),
+.blog_content_item_two .body_content > div > div:nth-child(4){
+    padding: 10px
+}
+.blog_content_item_two .body_content > div > div:nth-child(3) > div img,
+.blog_content_item_two .body_content > div > div:nth-child(4) > div img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 5px
+}
+.blog_content_item_two .body_content > div > div:nth-child(3) > div p strong,
+.blog_content_item_two .body_content > div > div:nth-child(4) > div p strong{
+    color: #363636;
+}
+.blog_content_item_two .body_content > div > div:nth-child(3) > div p em,
+.blog_content_item_two .body_content > div > div:nth-child(4) > div p em{
+    color: red
+}
+.blog_content_item_two .body_content > div > div:nth-child(3) > div button,
+.blog_content_item_two .body_content > div > div:nth-child(4) > div button{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: green 1px solid;
+    display: inline-block
+}
+.blog_content_item_two .body_content > div > div:nth-child(3)  > div,
+.blog_content_item_two .body_content > div > div:nth-child(4)  > div{
+    border-bottom: #bbbbbb 1px solid;
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+.blog_content_item_three{
+    padding: 10px
+}
+.blog_content_item_three > div{
+    width: 350px;
+    height: 250px;
+    margin-top: 50px
+}
+.blog_content_item_three > div img{
+    width: 100%;
+    height: 200px;
+    display: block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+.blog_content_item_three > div:first-child div{
+    height: 48px;
+    margin-top: 2px;
+    width: 100%;
+    border: green 1px solid
+}
+.blog_content_item_three > div:nth-child(2) div{
+    height: 48px;
+    margin-top: 2px;
+    width: 100%;
+    border: #d44753 1px solid
+}
+.blog_content_item_three > div:nth-child(3) div{
+    height: 48px;
+    margin-top: 2px;
+    width: 100%;
+    border: #ffc300  1px solid
+}
+.three .body_content > div > div:first-child > div:first-child,
+.three .body_content > div > div:nth-child(2) > div:first-child
+{
+    background-color: #d44753;
+}
+.three .body_content > div > div:nth-child(2) button{
+    background-color: #d44753
+}
+.three .body_content > div > div:nth-child(2) button:hover{
+    background-color: #f96969
+}
+.three .body_content > div > div:nth-child(2) img{
+    border-bottom-color: #d44753
+}
+.blog_content_item_four{
+    margin-top: 50px
+}
+.blog_content_item_four .lst_article{
+    margin-top: 10px
+}
+.blog_content_item_four .lst_article > div > div{
+    width: 250px;
+    height: 350px;
+    padding: 10px;
+    border: #e0e0e0 1px solid;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 20px
+}
+.blog_content_item_four .lst_article > div > div img{
+    width: 100%;
+    height: 150px;
+    display: block;
+    margin: auto
+}
+.blog_content_item_four .lst_article > div > div p{
+    text-align: center
+}
+.blog_content_item_four .lst_article > div > div strong{
+    color: #363636;
+    display: block;
+    text-align: center;
+    margin-bottom: 50px
+}
+.blog_content_item_four .lst_article > div > div em{
+    color: #ffc300;
+    font-weight: bold
+}
+.blog_content_item_four .lst_article > div > div button{
+    display: block;
+    width: 180px;
+    height: 48px;
+    background-color: #ffc300;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+    border-radius: 100px;
+    margin-top: 15px
+}
+.blog_content_item_two .body_content > div > div:first-child img{
+    width: 100%;
+    height: 250px;
+    margin-top: 55px;
+}
+.side_bare_window{
+    width: 40px;
+    height: 43px;
+    float: left;
+    margin-right: 50px;
+    display: none
+}
+.blog_content_item_one .desc{
+    width: 200px;
+    height: 100%;
+    padding: 10px;
+}
+.blog_content_item_two .header table{
+    width: 100%
+}
+.blog_content_item_two .header table td:nth-child(1){
+    width: 150px;
+    border-bottom: #87b225 2px solid
+}
+.blog_content_item_two .header table td:nth-child(1) h3{
+    color: #444444;
+    font-weight: bold;
+    font-size: 18px;
+    color: #87b225
+}
+.blog_content_item_two .header table td:nth-child(2){
+    padding-bottom: 10px;
+    min-width: 100px;
+    text-align: left;
+    border-bottom: #d1d1d1 1px solid
+}
+.blog_content_item_two .header table td:nth-child(2) em{
+    color: gray;
+    font-size: 15px
+}
+.blog_content_item_two .header table td:nth-child(3){
+    text-align: right;
+    border-bottom: #d1d1d1 1px solid
+}
+.blog_content_item_two .header table td:nth-child(3) a{
+    color: #87b225;
+}
+.blog_content_item_four table{
+    width: 100%
+}
+.blog_content_item_four table td:nth-child(1){
+    width: 150px;
+    border-bottom: #ffc300 2px solid
+}
+.blog_content_item_four table td:nth-child(1) h3{
+    color: #444444;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffc300
+}
+.blog_content_item_four table td:nth-child(2){
+    padding-bottom: 10px;
+    min-width: 100px;
+    text-align: left;
+    border-bottom: #d1d1d1 1px solid
+}
+.blog_content_item_four table td:nth-child(2) em{
+    color: gray;
+    font-size: 15px
+}
+.blog_content_item_four table td:nth-child(3){
+    text-align: right;
+    border-bottom: #d1d1d1 1px solid
+}
+.blog_content_item_four table td:nth-child(3) a{
+    color: #87b225;
+}
+@media(min-width: 500px){
+    .header_nav_two > div > div > div{
+        height: 100%;
+    }
+    .blog_content_item_one .desc{
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}
+@media(max-width: 500px){
+    .side_bare_window{
+        display: inline-block
+    }
+    .header_nav_two > div > div > div{
+        width: 100%
+    }
+    .header_nav_two > div > div > div strong{
+        padding-top: 10px;
+        display: inline-block
+    }
+    .header_nav_two > div > div{
+        padding: 0px
+    }
+    .nav_bar{
+        display: block;
+        padding-top: 10px;
+        display: none
+    }
+    .nav_bar_item{
+        display: block;
+        margin-right: 0px;
+        height: 50px
+    }
+    .blog_content_item_one img{
+        height: 300px
+    }
+    .blog_content_item_two{
+        margin-top: 60px
+    }
+    .blog_content_item_two .header table td{
+        width: 100%;
+        display: block
+    }
+    .blog_content_item_two .header table td:nth-child(3){
+        text-align: left
+    }
+    .blog_content_item_two .body_content > div > div{
+        width: 100%;
+        margin-top: 20px
+    }
+    .blog_content_item_four table td{
+        display: block;
+        width: 100%
+    }
+    .blog_content_item_four table td:nth-child(3){
+        text-align: left
+    }
+    .blog_content_item_four .lst_article > div > div{
+        margin: auto;
+        margin-bottom: 20px;
+        width: 100%
+    }
+}
